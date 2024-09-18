@@ -1,6 +1,9 @@
 on:
   pull_request:
-    types: [opened, reopened, ready_for_review]
+    types: 
+      - opened
+      - reopened
+      - synchronize
     branches:
       - dev
 jobs:
