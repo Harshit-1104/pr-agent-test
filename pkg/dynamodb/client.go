@@ -23,8 +23,8 @@ type DynamoClient struct {
 type Config struct {
 	ServerMode          string
 	Region              string
-	EndpointNeeded      bool
 	Endpoint            string
+	EndpointNeeded      bool
 	MaxRetryAttempts    int
 	MaxRetryBackoff     int
 	ConnectToDev        bool
