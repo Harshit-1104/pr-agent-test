@@ -21,15 +21,6 @@ type DynamoClient struct {
 }
 
 type Config struct {
-	ServerMode          string
-	Region              string
-	Endpoint            string
-	EndpointNeeded      bool
-	MaxRetryAttempts    int
-	MaxRetryBackoff     int
-	ConnectToDev        bool
-	AwsAccessID         string
-	AwsAccessKey        string
 	AwsAccessToken      string
 	TableName           string
 	TimeoutMilliseconds int
